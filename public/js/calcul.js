@@ -1,28 +1,28 @@
-export let op = ['+','-','x','/'];
+// export let operator = ['+','-','x','/'];
 
 
-export function calcul(nb1, nb2, op){
-    let result; 
-    opers.forEach(e => {
-        if(e == op){
-            nb1 = parseFloat(nb1); 
-            nb2 = parseFloat(nb2); 
-            switch(op){
-                case "+":
-                    result = nb1+nb2;
-                break;
-                case "-":
-                    result = nb1-nb2;  
-                break;
-                case "x":
-                    result =  nb1*nb2; 
-                break;
-                case "/":
-                    result =  nb1/nb2;
-                break;
+// export function calcul(nb1, nb2, op){
+//     let result; 
+//     operator.forEach(e => {
+//         if(e == op){
+//             nb1 = parseFloat(nb1); 
+//             nb2 = parseFloat(nb2); 
+//             switch(op){
+//                 case "+":
+//                     result = nb1+nb2;
+//                 break;
+//                 case "-":
+//                     result = nb1-nb2;  
+//                 break;
+//                 case "x":
+//                     result =  nb1*nb2; 
+//                 break;
+//                 case "/":
+//                     result =  nb1/nb2;
+//                 break;
                 
-            }
-        }
-    });
-    return result;
-}
+//             }
+//         }
+//     });
+//     return result;
+// }
